@@ -44,7 +44,7 @@ def webhook():
 
                     messages = ['Hello', 'How are you?', 'Take care', 'Roger that']
                     
-                    send_message(sender_id, random.choice(messages))
+                    send_message(sender_id, 'roger that!')
 
                 if messaging_event.get("delivery"):  # delivery confirmation
                     pass
